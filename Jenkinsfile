@@ -1,8 +1,8 @@
-env.SERVICE_ID='1s128'
+env.SERVICE_ID='1s149'
 
 node {
    stage('Checkout') {
-      git 'https://github.com/terafin/mqtt-alexa-bridge.git'
+      git 'https://github.com/terafin/mqtt-lifx-bridge.git'
    }
    stage('Docker Build') {
        sh 'docker build --rm=false -t "$DOCKER_USER/$JOB_NAME" .'
