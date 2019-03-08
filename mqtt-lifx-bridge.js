@@ -14,7 +14,7 @@ if (_.isNil(topicPrefix)) {
 	topicPrefix = 'lifx'
 }
 
-var mqttOptions = {qos: 2}
+var mqttOptions = {qos: 1}
 
 var shouldRetain = process.env.MQTT_RETAIN
 
@@ -28,7 +28,7 @@ if (!_.isNil(shouldRetain)) {
 
 var connectedEvent = function() {
 	logging.info('MQTT Connected')
-	client.subscribe(topicPrefix + '/+/+/+/setPower', {qos: 2})
+	client.subscribe(topicPrefix + '/+/+/+/setPower', {qos: 1})
 	health.healthyEvent()
 }
 
