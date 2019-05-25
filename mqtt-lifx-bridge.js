@@ -38,7 +38,7 @@ var disconnectedEvent = function() {
 }
 
 // Setup MQTT
-var client = mqtt.setupClient(connectedEvent, disconnectedEvent)
+var client = mqtt_helpers.setupClient(connectedEvent, disconnectedEvent)
 
 
 var deviceIPMap = {}
