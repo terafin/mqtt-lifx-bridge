@@ -15,7 +15,7 @@
         "lodash": "latest",
         "mqtt": "latest",
         "repeat": "0.0.6",
-        "node-lifx-lan": "latest"
+        "node-lifx-lan": "0.4.1"
     },
     "engines": {
         "node": ">=7"
