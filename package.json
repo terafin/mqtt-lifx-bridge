@@ -1,23 +1,23 @@
 {
-    "name": "mqtt-lifx-bridge",
-    "version": "0.0.1",
-    "description": "Bridge LIFX via Local LAN to and from MQTT",
-    "license": "MIT",
-    "main": "mqtt-lifx-bridge.js",
-    "repository": {
-        "url": "https://github.com/terafin/mqtt-lifx-bridge"
-    },
-    "scripts": {
-        "start": "node mqtt-lifx-bridge.js"
-    },
-    "dependencies": {
-        "homeautomation-js-lib": "https://github.com/terafin/homeautomation-js-lib.git",
-        "lodash": "latest",
-        "mqtt": "latest",
-        "repeat": "0.0.6",
-        "node-lifx-lan": "0.4.1"
-    },
-    "engines": {
-        "node": ">=7"
-    }
+  "name": "mqtt-lifx-bridge",
+  "version": "0.0.1",
+  "description": "Bridge LIFX via Local LAN to and from MQTT",
+  "license": "MIT",
+  "main": "mqtt-lifx-bridge.js",
+  "repository": {
+    "url": "https://github.com/terafin/mqtt-lifx-bridge"
+  },
+  "scripts": {
+    "start": "node mqtt-lifx-bridge.js"
+  },
+  "dependencies": {
+    "homeautomation-js-lib": "https://github.com/terafin/homeautomation-js-lib.git",
+    "lodash": "latest",
+    "mqtt": "latest",
+    "repeat": "0.0.6",
+    "node-lifx-lan": "0.4.1"
+  },
+  "engines": {
+    "node": ">=7"
+  }
 }
